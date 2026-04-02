@@ -1,0 +1,23 @@
+:root {
+  --bg-deep: #0b0b12;
+  --bg-plum: #140f1f;
+  --bg-purple: #1c1230;
+  --bg-gothic: #24143d;
+
+  --accent-violet: #8b5cf6;
+  --accent-vivid: #a855f7;
+  --accent-soft: #c084fc;
+  --accent-lilac: #e9d5ff;
+  --text-soft: #f5f3ff;
+
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glow-purple: rgba(168, 85, 247, 0.18);
+
+  --font-display: "Cinzel", "Times New Roman", serif;
+  --font-body: "Manrope", system-ui, sans-serif;
+
+  --radius-lg: 20px;
+  --radius-md: 12px;
+  --shadow-glow: 0 0 40px var(--glow-purple);
+  --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
