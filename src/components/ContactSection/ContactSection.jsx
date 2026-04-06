@@ -13,14 +13,19 @@ export default function ContactSection() {
             subtitle="Columbia sessions by appointment — reach out for consults, flash availability, and custom timelines."
           />
           <div className="contact__actions">
-            <a className="contact__btn contact__btn--primary" href={siteData.instagramHref} target="_blank" rel="noreferrer">
-              Instagram
+            <a
+              className="contact__btn contact__btn--primary"
+              href={siteData.bookingHref}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Book appointment
             </a>
             <a className="contact__btn" href={siteData.emailHref}>
               Email
             </a>
-            <a className="contact__btn" href={siteData.bookingHref}>
-              Booking form
+            <a className="contact__btn" href={siteData.instagramHref} target="_blank" rel="noreferrer">
+              Instagram
             </a>
           </div>
           <p className="contact__location">

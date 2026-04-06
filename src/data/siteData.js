@@ -12,7 +12,7 @@ export const siteData = {
   emailHref: 'mailto:hello@jazminetutii.com',
   instagramLabel: '@jazminetutii',
   instagramHref: 'https://instagram.com/',
-  bookingHref: '#booking',
+  bookingHref: 'https://squareup.com/appointments/book/LAV0JYR1J6SXY',
   hours: 'By appointment · Tue–Sat',
   mapEmbedTitle: 'Columbia, South Carolina',
 }
@@ -20,7 +20,7 @@ export const siteData = {
 export const navLinks = [
   { id: 'hero', label: 'Home' },
   { id: 'about', label: 'About' },
-  { id: 'featured', label: 'Featured' },
+  { id: 'featured', label: 'Tattoo work' },
   { id: 'portfolio', label: 'Portfolio' },
   { id: 'services', label: 'Services' },
   { id: 'booking', label: 'Book' },

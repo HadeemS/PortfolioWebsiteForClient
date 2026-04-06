@@ -14,21 +14,25 @@ export default function About() {
         </div>
         <div className="about__copy">
           <SectionHeading
-            eyebrow="The artist"
-            title="Ink with intention"
-            subtitle="Columbia-based work rooted in self-expression, precision, and respect for your skin."
+            eyebrow="About me"
+            title="About Me"
+            subtitle="Columbia-based tattoo artist — detailed compositions, custom designs, and collaboration with every client."
           />
           <p className="about__text">
-            I build custom pieces that feel cinematic up close and unmistakable across the room — fine transitions,
-            deliberate contrast, and layouts that move with your body. Every session is collaborative: your references,
-            your story, and a calm, detail-obsessed process from stencil to heal.
+            Hey lovies — my name is Jazmine Tutii, but I&apos;m more known as Tutii. I am a Columbia-based tattoo artist
+            known for detailed compositions and custom designs created in collaboration with each client.
           </p>
-          <blockquote className="about__quote">
-            Meaningful ink doesn&apos;t rush. It breathes, settles, and stays.
-          </blockquote>
           <p className="about__text">
-            Expect a comfortable setup, transparent timing, and work that honors both the idea and the craft — whether
-            it&apos;s delicate fine line, deep black and grey, or lettering with real attitude.
+            With professional shop experience and an academic background in psychology, art, business, and African
+            American history, my approach to tattooing blends technical precision with meaningful visual storytelling.
+          </p>
+          <p className="about__text">
+            Each piece is designed with attention to flow, balance, and individuality, ensuring artwork complements both
+            the concept and the natural movement of the body.
+          </p>
+          <p className="about__text">
+            Operating from a home-based private studio environment allows for a focused and comfortable experience where
+            clients can feel confident throughout the entire process — from consultation to completed tattoo.
           </p>
         </div>
       </div>

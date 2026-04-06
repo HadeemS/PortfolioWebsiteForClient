@@ -15,116 +15,80 @@
 }
 
 .booking__panel {
-  padding: clamp(1.5rem, 4vw, 2rem);
+  padding: clamp(1.75rem, 4vw, 2.25rem);
   border-radius: var(--radius-lg);
   background: linear-gradient(145deg, rgba(28, 18, 48, 0.55), rgba(11, 11, 18, 0.95));
   border: 1px solid var(--glass-border);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  text-align: center;
 }
 
-.booking__thanks {
-  margin: 0 0 1.25rem;
-  padding: 1rem 1.1rem;
-  border-radius: var(--radius-md);
-  border: 1px solid rgba(168, 85, 247, 0.35);
-  background: rgba(36, 20, 61, 0.35);
-  color: var(--accent-lilac);
-  font-size: 0.95rem;
+.booking__lead {
+  margin: 0 0 1.5rem;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: rgba(245, 243, 255, 0.78);
+  max-width: 28rem;
+  margin-inline: auto;
 }
 
-.booking__form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.1rem;
-}
-
-.booking__row {
-  display: grid;
-  gap: 1.1rem;
-}
-
-@media (min-width: 640px) {
-  .booking__row--2 {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-.booking__field {
-  display: flex;
-  flex-direction: column;
-  gap: 0.45rem;
-}
-
-.booking__label {
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(245, 243, 255, 0.55);
-}
-
-.booking__input {
+.booking__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  padding: 0.75rem 0.9rem;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--glass-border);
-  background: rgba(7, 7, 12, 0.65);
-  color: var(--text-soft);
-  font-size: 1rem;
-  transition: border-color var(--transition), box-shadow var(--transition);
-}
-
-.booking__input:focus {
-  outline: none;
-  border-color: rgba(168, 85, 247, 0.55);
-  box-shadow: 0 0 0 1px rgba(168, 85, 247, 0.25);
-}
-
-.booking__textarea {
-  resize: vertical;
-  min-height: 6rem;
-  line-height: 1.5;
-}
-
-.booking__file {
-  padding: 0.5rem 0;
-  color: rgba(245, 243, 255, 0.75);
-}
-
-.booking__hint {
-  font-size: 0.82rem;
-  color: rgba(245, 243, 255, 0.45);
-}
-
-.booking__expect {
-  margin: 0.25rem 0 0;
-  font-size: 0.92rem;
-  color: rgba(245, 243, 255, 0.65);
-}
-
-.booking__serious {
-  margin: 0;
-  font-size: 0.82rem;
-  color: rgba(245, 243, 255, 0.45);
-}
-
-.booking__submit {
-  margin-top: 0.5rem;
-  align-self: flex-start;
-  padding: 0.95rem 2rem;
+  max-width: 22rem;
+  margin: 0 auto 1rem;
+  padding: 1.1rem 1.75rem;
   border-radius: 999px;
-  border: 1px solid rgba(232, 213, 255, 0.35);
+  border: 1px solid rgba(232, 213, 255, 0.45);
   background: linear-gradient(135deg, var(--accent-vivid), #5b21b6);
   color: var(--text-soft);
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   font-weight: 700;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  box-shadow: 0 0 40px rgba(168, 85, 247, 0.35);
-  transition: transform var(--transition), box-shadow var(--transition);
+  text-decoration: none;
+  box-shadow: 0 0 48px rgba(168, 85, 247, 0.45), 0 12px 40px rgba(0, 0, 0, 0.35);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
 }
 
-.booking__submit:hover {
+.booking__cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 0 52px rgba(168, 85, 247, 0.45);
+  box-shadow: 0 0 60px rgba(168, 85, 247, 0.55), 0 16px 48px rgba(0, 0, 0, 0.4);
+  border-color: rgba(255, 250, 255, 0.55);
+}
+
+.booking__cta:focus-visible {
+  outline: 2px solid var(--accent-lilac);
+  outline-offset: 4px;
+}
+
+.booking__url {
+  margin: 0 0 1.5rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: rgba(168, 85, 247, 0.85);
+  word-break: break-all;
+}
+
+.booking__note {
+  margin: 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--glass-border);
+  font-size: 0.92rem;
+  color: rgba(245, 243, 255, 0.55);
+  line-height: 1.6;
+}
+
+.booking__inline {
+  color: var(--accent-lilac);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color var(--transition);
+}
+
+.booking__inline:hover {
+  color: var(--text-soft);
+  text-decoration: underline;
 }

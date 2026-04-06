@@ -49,17 +49,9 @@
   margin: 0 0 1.15rem;
   color: rgba(245, 243, 255, 0.72);
   font-size: 1.02rem;
+  line-height: 1.65;
 }
 
-.about__quote {
-  margin: 1.75rem 0;
-  padding: 1.25rem 1.35rem;
-  border-left: 3px solid var(--accent-vivid);
-  background: rgba(28, 18, 48, 0.45);
-  border-radius: 0 var(--radius-md) var(--radius-md) 0;
-  font-family: var(--font-display);
-  font-size: 1.15rem;
-  letter-spacing: 0.04em;
-  color: var(--accent-lilac);
-  font-style: italic;
+.about__text:last-child {
+  margin-bottom: 0;
 }

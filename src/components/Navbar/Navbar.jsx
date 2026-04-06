@@ -66,9 +66,15 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <button type="button" className="navbar__cta" onClick={() => scrollTo('booking')}>
+          <a
+            className="navbar__cta"
+            href={siteData.bookingHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setOpen(false)}
+          >
             Book Now
-          </button>
+          </a>
         </nav>
 
         <button

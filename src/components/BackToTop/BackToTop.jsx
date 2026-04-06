@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { siteData } from '../../data/siteData'
 import './BackToTop.css'
 
 export default function BackToTop() {
@@ -24,9 +25,14 @@ export default function BackToTop() {
       >
         ↑
       </button>
-      <button type="button" className="mobile-book" onClick={goBooking}>
+      <a
+        className="mobile-book"
+        href={siteData.bookingHref}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Book
-      </button>
+      </a>
     </>
   )
 }

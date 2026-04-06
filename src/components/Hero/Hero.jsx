@@ -22,9 +22,14 @@ export default function Hero() {
         </h1>
         <p className="hero__statement">{siteData.heroStatement}</p>
         <div className="hero__actions">
-          <button type="button" className="hero__btn hero__btn--primary" onClick={() => scrollTo('booking')}>
+          <a
+            className="hero__btn hero__btn--primary"
+            href={siteData.bookingHref}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Book Now
-          </button>
+          </a>
           <button type="button" className="hero__btn hero__btn--ghost" onClick={() => scrollTo('portfolio')}>
             View Portfolio
           </button>

@@ -18,7 +18,7 @@ export default function PortfolioGallery({ onOpenItem }) {
           align="center"
           eyebrow="Portfolio"
           title="Gallery"
-          subtitle="Images and video — filter by style, click to open the lightbox."
+          subtitle="More tattoo work — photos and clips. Filter by style or tap a clip to watch."
         />
 
         <div className="portfolio__filters" role="tablist" aria-label="Filter portfolio">
@@ -41,7 +41,25 @@ export default function PortfolioGallery({ onOpenItem }) {
             <li key={item.id} className="portfolio__item">
               <button type="button" className="portfolio__card" onClick={() => onOpenItem(item)}>
                 <span className="portfolio__thumb-wrap">
-                  <img src={item.thumbnail} alt="" className="portfolio__thumb" loading="lazy" width={800} height={1000} />
+                  {item.mediaType === 'video' && !item.thumbnail ? (
+                    <video
+                      className="portfolio__thumb portfolio__thumb--video"
+                      muted
+                      playsInline
+                      preload="metadata"
+                      src={item.src}
+                      aria-hidden
+                    />
+                  ) : (
+                    <img
+                      src={item.thumbnail}
+                      alt=""
+                      className="portfolio__thumb"
+                      loading="lazy"
+                      width={800}
+                      height={1000}
+                    />
+                  )}
                   {item.mediaType === 'video' ? (
                     <span className="portfolio__play" aria-hidden>
                       <span className="portfolio__play-icon" />

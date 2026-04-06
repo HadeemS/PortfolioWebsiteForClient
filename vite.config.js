@@ -14,4 +14,5 @@ const REPO_NAME = 'PortfolioWebsiteForClient'
 export default defineConfig(({ command }) => ({
   plugins: [react()],
   base: command === 'build' ? `/${REPO_NAME}/` : '/',
+  assetsInclude: ['**/*.JPG', '**/*.MOV'],
 }))
