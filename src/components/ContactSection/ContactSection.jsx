@@ -10,7 +10,7 @@ export default function ContactSection() {
           <SectionHeading
             eyebrow="Connect"
             title="Location & contact"
-            subtitle="Columbia sessions by appointment — reach out for consults, flash availability, and custom timelines."
+            subtitle="Sacramento sessions by appointment — reach out for consults, flash availability, and custom timelines."
           />
           <div className="contact__actions">
             <a
@@ -39,9 +39,9 @@ export default function ContactSection() {
             className="contact__map"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=-81.115%2C33.94%2C-80.945%2C34.115&amp;layer=mapnik"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-121.56%2C38.52%2C-121.42%2C38.64&amp;layer=mapnik"
           />
-          <p className="contact__map-note">Map centered on Columbia, SC — replace embed if you want a pinned studio address.</p>
+          <p className="contact__map-note">Map centered on Sacramento, CA — replace embed if you want a pinned studio address.</p>
         </div>
       </div>
     </section>

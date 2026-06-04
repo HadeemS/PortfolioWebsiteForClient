@@ -4,8 +4,8 @@
  */
 export const siteData = {
   artistName: 'Jazmine Tutii',
-  location: 'Columbia, SC',
-  tagline: 'Tattoo Artist in Columbia, SC',
+  location: 'Sacramento, CA',
+  tagline: 'Tattoo Artist in Sacramento, CA',
   heroStatement:
     'Dark detail. Bold expression. Custom ink made to mean something.',
   email: 'hello@jazminetutii.com',
@@ -14,7 +14,7 @@ export const siteData = {
   instagramHref: 'https://www.instagram.com/createdbytutii/',
   bookingHref: 'https://squareup.com/appointments/book/LAV0JYR1J6SXY',
   hours: 'By appointment · Tue–Sat',
-  mapEmbedTitle: 'Columbia, South Carolina',
+  mapEmbedTitle: 'Sacramento, California',
 }
 
 export const navLinks = [

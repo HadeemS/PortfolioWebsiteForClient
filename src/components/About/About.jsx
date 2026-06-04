@@ -16,10 +16,10 @@ export default function About() {
           <SectionHeading
             eyebrow="About me"
             title="About Me"
-            subtitle="Columbia-based tattoo artist — detailed compositions, custom designs, and collaboration with every client."
+            subtitle="Sacramento-based tattoo artist — detailed compositions, custom designs, and collaboration with every client."
           />
           <p className="about__text">
-            Hey lovies — my name is Jazmine Tutii, but I&apos;m more known as Tutii. I am a Columbia-based tattoo artist
+            Hey lovies — my name is Jazmine Tutii, but I&apos;m more known as Tutii. I am a Sacramento-based tattoo artist
             known for detailed compositions and custom designs created in collaboration with each client.
           </p>
           <p className="about__text">
